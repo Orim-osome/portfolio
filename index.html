@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Testimony Oruru — web developer building responsive websites and database-powered applications.">
-  <title>Testimony Oruru | Web Developer</title>
+  <meta name="theme-color" content="#050606">
+  <meta name="description" content="Testimony Oruru — web developer building responsive websites and database-powered applications with a focus on usability, performance and security.">
+  <title>Testimony | Web Developer</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
 </head>
+
 <body>
   <main class="hero" id="home">
     <nav class="nav" id="nav" aria-label="Main navigation">
-      <a class="brand" href="index.html">Osome<span>.</span></a>
-      <button class="menu" id="menu" aria-label="Toggle navigation"
-        aria-expanded="false" aria-controls="nav-links">
+      <a class="brand" href="index.html">Testimony<span>.</span></a>
+
+      <button class="menu" id="menu" type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
 
@@ -31,14 +36,23 @@
     </nav>
 
     <section class="copy" aria-labelledby="headline">
-      <h1 id="headline">Building Your<br>Digital <span>Presence</span></h1>
+      <h1 id="headline">
+        Building Your Secure<br>
+        <span>Digital Presence</span>
+      </h1>
+
       <p class="intro">
-        I build responsive websites and practical web applications
-        that help businesses work smarter.
+        Professional websites and digital solutions built with security,
+        performance and user experience in mind.
       </p>
+
       <div class="actions">
-        <a class="cta primary" href="projects.html">View My Work <span aria-hidden="true">→</span></a>
-        <a class="cta secondary" href="contact.html">Let's Talk <span aria-hidden="true">→</span></a>
+        <a class="cta primary" href="#projects">
+          View My Work <span aria-hidden="true">→</span>
+        </a>
+        <a class="cta secondary" href="contact.html">
+          Let's Talk <span aria-hidden="true">→</span>
+        </a>
       </div>
     </section>
 
@@ -57,6 +71,7 @@
       <span class="node n4" aria-label="Python">Py</span>
       <span class="node n5" aria-label="Applications">▦</span>
       <span class="node n6" aria-label="Database">DB</span>
+
       <div class="glow" aria-hidden="true"></div>
 
       <svg class="lock" viewBox="0 0 240 200" role="img"
@@ -69,6 +84,7 @@
             <stop offset=".7" stop-color="#f7f7f7"/>
             <stop offset="1" stop-color="#4d5052"/>
           </linearGradient>
+
           <linearGradient id="case" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stop-color="#d5d7d8"/>
             <stop offset=".16" stop-color="#777a7c"/>
@@ -77,48 +93,198 @@
             <stop offset="1" stop-color="#4b4e50"/>
           </linearGradient>
         </defs>
+
         <path d="M79 92 V57 C79 25 96 8 120 8 C144 8 161 25 161 57 V92"
           fill="none" stroke="#17191a" stroke-width="17" stroke-linecap="round"/>
+
         <path d="M79 92 V57 C79 25 96 8 120 8 C144 8 161 25 161 57 V92"
           fill="none" stroke="url(#metal)" stroke-width="13" stroke-linecap="round"/>
+
         <rect x="48" y="83" width="144" height="98" rx="8"
           fill="#030404" stroke="#777b7d" stroke-width="2"/>
+
         <rect x="53" y="88" width="134" height="87" rx="5" fill="url(#case)"/>
+
         <rect x="59" y="95" width="122" height="72" rx="3"
           fill="#151718" stroke="#4b4f50"/>
+
         <path d="M61 101 H179" stroke="#aeb1b2" stroke-opacity=".5"/>
         <path d="M63 165 H177" stroke="#000" stroke-width="3"/>
+
         <g fill="#a6ff35">
           <circle cx="103" cy="127" r="2.3"/>
           <circle cx="116" cy="127" r="2.3"/>
           <circle cx="129" cy="127" r="2.3"/>
           <circle cx="142" cy="127" r="2.3"/>
         </g>
-        <rect x="47" y="88" width="8" height="85" rx="2" fill="#c3c6c7" opacity=".65"/>
-        <rect x="185" y="91" width="5" height="80" rx="2" fill="#a9acad" opacity=".55"/>
+
+        <rect x="47" y="88" width="8" height="85" rx="2"
+          fill="#c3c6c7" opacity=".65"/>
+        <rect x="185" y="91" width="5" height="80" rx="2"
+          fill="#a9acad" opacity=".55"/>
       </svg>
 
       <a class="scroll" href="#services" aria-label="Scroll to services">⌄</a>
     </div>
 
     <div class="stack" aria-label="Technology stack">
-      <span>ASP.NET Core</span><b>•</b>
-      <span>Python</span><b>•</b>
-      <span>PostgreSQL</span><b>•</b>
+      <span>ASP.NET Core</span><b aria-hidden="true">•</b>
+      <span>Python</span><b aria-hidden="true">•</b>
+      <span>PostgreSQL</span><b aria-hidden="true">•</b>
       <span>JavaScript</span>
     </div>
   </main>
 
   <div class="page-content">
-    <section class="content-section" id="services"><p class="section-kicker">What I do</p><h2>Practical digital solutions.</h2><p class="section-lead">I help businesses establish a clear online presence and build useful tools around the way they work.</p><div class="content-grid">
-      <article class="info-card"><span class="card-number">01 / WEB</span><h3>Business Websites</h3><p>Responsive, professional websites that communicate your service clearly and make it easy for customers to take the next step.</p></article>
-      <article class="info-card"><span class="card-number">02 / APPLICATIONS</span><h3>Web Applications</h3><p>Purpose-built applications with user accounts, role-based access and workflows designed around real business needs.</p></article>
-      <article class="info-card"><span class="card-number">03 / DATA</span><h3>Database Integration</h3><p>Backend and database functionality that helps applications store, retrieve and manage information reliably.</p></article>
-    </div><a class="text-link" href="services.html">Explore services →</a></section>
-    <section class="content-section dark-panel" id="projects"><p class="section-kicker">Selected work</p><h2>Building useful things.</h2><p class="section-lead">A look at a real project I am developing, including the technical decisions behind it.</p><article class="project-card"><div><span class="project-status">IN DEVELOPMENT</span><h3>DriveX</h3><p>A car-rental marketplace concept connecting vehicle providers with people who need a car. The ASP.NET Core application includes separate user roles, vehicle listings, booking workflows, payment verification and email verification.</p><p>This project is still in development and has not been publicly deployed.</p><div class="tag-list"><span>ASP.NET Core</span><span>PostgreSQL</span><span>Paystack</span><span>Authentication</span></div><a class="text-link" href="projects.html">View project details →</a></div><div class="project-visual" aria-hidden="true"><div class="monogram">D<span style="color:#f5f5f5">X</span></div></div></article></section>
-    <section class="content-section" id="about"><p class="section-kicker">A little about me</p><h2>Developer focused on useful outcomes.</h2><p class="section-lead">I build responsive websites and database-powered applications, with a focus on clean interfaces, practical features and maintainable code. My current work includes ASP.NET Core, PostgreSQL and front-end web technologies.</p><div class="skill-list"><span>HTML &amp; CSS</span><span>JavaScript</span><span>ASP.NET Core</span><span>C#</span><span>PostgreSQL</span><span>Python</span></div><a class="text-link" href="about.html">More about me →</a></section>
-    <section class="content-section" id="contact"><p class="section-kicker">Have a project in mind?</p><h2>Let's talk about what you need.</h2><p class="section-lead">Tell me what you are trying to build or improve. We can discuss the scope and the most practical way to approach it.</p><a class="cta primary" style="margin-top:22px;background:#101210;color:#fff" href="contact.html">Contact me <span aria-hidden="true">→</span></a></section>
+
+    <!-- SERVICES -->
+    <section class="content-section" id="services">
+      <p class="section-kicker">What I do</p>
+      <h2>Practical digital solutions.</h2>
+      <p class="section-lead">
+        I help businesses establish a clear online presence and build useful
+        tools around the way they work.
+      </p>
+
+      <div class="content-grid">
+        <article class="info-card">
+          <span class="card-number">01 / WEB</span>
+          <h3>Business Websites</h3>
+          <p>
+            Responsive, professional websites that communicate your service
+            clearly and make it easy for customers to take the next step.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-number">02 / APPLICATIONS</span>
+          <h3>Web Applications</h3>
+          <p>
+            Purpose-built applications with user accounts, role-based access
+            and workflows designed around real business needs.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-number">03 / DATA</span>
+          <h3>Database Integration</h3>
+          <p>
+            Backend and database functionality that helps applications
+            store, retrieve and manage information reliably.
+          </p>
+        </article>
+      </div>
+
+      <a class="text-link" href="services.html">Explore services →</a>
+    </section>
+
+    <!-- SELECTED PROJECTS -->
+    <section class="content-section dark-panel" id="projects">
+      <p class="section-kicker">Selected work</p>
+      <h2>Projects built with purpose.</h2>
+      <p class="section-lead">
+        A selection of practical digital products, starting with DriveX,
+        a car-rental marketplace I am building.
+      </p>
+
+      <div class="content-grid project-grid">
+
+        <article class="info-card project-item">
+          <a class="project-image-link" href="projects.html"
+            aria-label="View DriveX project details">
+            <img
+              class="project-image"
+              src="/drivex-home.png"
+              alt="Screenshot of the DriveX car-rental marketplace"
+              loading="lazy"
+            >
+          </a>
+
+          <span class="project-status">IN DEVELOPMENT</span>
+
+          <h3>DriveX — Car Rental Marketplace</h3>
+
+          <p>
+            A marketplace connecting independent vehicle providers with
+            people looking to rent a car. Built with ASP.NET Core and
+            PostgreSQL, with vehicle listings, booking workflows and
+            server-side payment verification.
+          </p>
+
+          <div class="tag-list">
+            <span>ASP.NET Core</span>
+            <span>C#</span>
+            <span>JavaScript</span>
+            <span>PostgreSQL</span>
+          </div>
+
+          <a class="text-link" href="projects.html">
+            View project details →
+          </a>
+        </article>
+
+        <!--
+          Add another project-item article here when you have another
+          genuine project to showcase. Use its own screenshot, description
+          and technology tags.
+        -->
+
+      </div>
+
+      <a class="text-link" href="projects.html">Explore all projects →</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="content-section" id="about">
+      <p class="section-kicker">A little about me</p>
+      <h2>Developer focused on useful outcomes.</h2>
+      <p class="section-lead">
+        I approach development by understanding the problem first, then
+        building practical solutions around real user needs. I focus on
+        responsive interfaces, maintainable code and dependable backend
+        functionality.
+      </p>
+
+      <div class="skill-list">
+        <span>HTML &amp; CSS</span>
+        <span>JavaScript</span>
+        <span>ASP.NET Core</span>
+        <span>C#</span>
+        <span>PostgreSQL</span>
+        <span>Python</span>
+      </div>
+
+      <a class="text-link" href="about.html">More about me →</a>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="content-section" id="contact">
+      <p class="section-kicker">Have a project in mind?</p>
+      <h2>Let's talk about what you need.</h2>
+      <p class="section-lead">
+        Tell me what you are trying to build or improve. We can discuss
+        the scope and the most practical way to approach it.
+      </p>
+
+      <a class="cta primary contact-cta" href="contact.html">
+        Contact me <span aria-hidden="true">→</span>
+      </a>
+    </section>
+
   </div>
-  <footer class="site-footer"><a class="brand" href="index.html">Osome<span>.</span></a><span>© <span id="year">2026</span> Osome. Built with care.</span><a href="contact.html">Let's work together →</a></footer>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html">Testimony<span>.</span></a>
+    <span>© <span id="year">2026</span> Testimony. Built with care.</span>
+    <a href="contact.html">Let's work together →</a>
+  </footer>
+
+  <script>
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 </html>
